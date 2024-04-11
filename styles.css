@@ -8,6 +8,24 @@
     margin: 30px;
 }
 
-h1 {
+.container li, a {
+    list-style: none;
+    text-decoration: none;
+    color: orangered;
+    font-size: 1.2rem;
+}
+.container li:hover {
+    font-weight: 600;
+}
+
+
+.container h1 {
     margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    width: fit-content;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
 }
